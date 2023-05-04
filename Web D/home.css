@@ -1,0 +1,56 @@
+body{
+    background-image: url("251553268.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    text-align: center;
+    font-family: Avantgarde, sans-serif;
+    font-size: 65px;
+    color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(255,255,255,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-variant: small-caps;
+    margin: 50px;
+
+}
+
+.heading{
+    font-family: Avantgarde, sans-serif;
+    font-size: 125px;
+    color: rgba(0, 0, 0, 0.9);
+    font-variant: small-caps;
+    margin: 100px 100px;
+
+}
+
+.navbar ul{
+    list-style: none;
+    background-color: rgba(255,255,255,0.4);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.navbar li{
+    display: inline-block;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.8);
+    font-family: Avantgarde, sans-serif;
+    font-variant: small-caps;
+    width:100px;
+    display: block;
+    padding:25px 20px;
+    font-size:15px;
+    text-align: center;
+    font-weight: bold;
+}
+.navbar a:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+}

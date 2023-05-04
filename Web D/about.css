@@ -1,0 +1,19 @@
+body{
+    background-image: url(RDT_20230427_1437156282138483335343511.jpg);
+    border: 2px solid black;
+}
+h1{
+    background-color: crimson;
+    color: azure;
+    text-align: center;
+    border: 5px solid black;
+}
+ul{
+    background-color: aqua;
+    font-size: medium;
+
+}
+li{
+    list-style: none;
+    font-size: larger;
+}
