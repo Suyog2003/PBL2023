@@ -1,38 +1,57 @@
 body{
-    background-image: url("251553268.jpg");
-    background-size: cover;
-    background-position: center;
+    background-color:antiquewhite;
 }
-
-h1{
-    text-align: center;
-    font-family: Avantgarde, sans-serif;
-    font-size: 65px;
-    color: rgba(0, 0, 0, 0.9);
-    background-color: rgba(255,255,255,0.5);
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-right: 670px;
+    padding-left: 670px;
+  }
+.twoboxes{
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 100vh;
-    font-variant: small-caps;
-    margin: 50px;
-
+    align-items: center;
+    font-style: none;
+    column-gap: 80px;
 }
 
+.firstbar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 .heading{
     font-family: Avantgarde, sans-serif;
-    font-size: 125px;
+    font-size: 50px;
     color: rgba(0, 0, 0, 0.9);
     font-variant: small-caps;
-    margin: 100px 100px;
+    float: left;
+    background-color: rgba(255,255,255,0.4);
+    margin-top: 65px;
+    margin-bottom: 65px;
+    padding: 0px 50px;
 
 }
-
+.cook{position: relative;}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 50px;
+    font-family: Avantgarde, sans-serif;
+  }
+.cooking{
+    float: right;
+    background-color: rgba(255,255,255,0.4);
+    
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
 .navbar ul{
     list-style: none;
-    background-color: rgba(255,255,255,0.4);
-    padding: 0;
-    margin: 0;
+    background-color: rgb(255, 255, 255,0.5);
     text-align: center;
 }
 .navbar li{
@@ -50,7 +69,47 @@ h1{
     font-size:15px;
     text-align: center;
     font-weight: bold;
+    transition: all 0.5s;
 }
 .navbar a:hover{
     background-color: rgba(255, 255, 255, 0.8);
+    transform: scale(1.1);
+}
+
+.articles li{
+    display: inline-block;
+    margin: 0px 35px;
+    transition: all 1s;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.articles li:hover{
+    transform: scale(1.1);
+}
+.articles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+h2{
+    text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+}
+.trendhead{
+    font-family: Avantgarde, sans-serif;
+    font-weight: 50;
+    font-size: 25px;
+    font-variant: small-caps;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.4);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0px 150px;
 }
